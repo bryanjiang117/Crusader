@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.py"],
   build: {
+    cssCodeSplit: false,
     outDir: '../dist',
   }
 })
